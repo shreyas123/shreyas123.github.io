@@ -3,6 +3,7 @@ layout: post
 title: "Install therubyracer on the OSX - El Captian (10.11)"
 date: 2016-04-15T19:22:31+02:00
 categories: therubyracer
+comments: true
 ---
 
 Fresh installing `therubyracer` gem on ruby -v >= 2.1
@@ -107,6 +108,7 @@ gem install libv8 -v '3.16.14.13' -- --with-system-v8
 gem install therubyracer -- --with-v8-dir=/usr/local/opt/v8-315
 
 {% endhighlight %}
+
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
