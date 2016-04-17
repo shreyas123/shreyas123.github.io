@@ -4,6 +4,7 @@ title: "Install therubyracer on the OSX - El Captian (10.11)"
 date: 2016-04-15T19:22:31+02:00
 categories: therubyracer
 comments: true
+logo: certificate
 ---
 
 Fresh installing `therubyracer` gem on ruby -v >= 2.1
