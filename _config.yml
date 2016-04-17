@@ -54,7 +54,9 @@ kramdown:
     coderay_css: class
 
 # Gems
-gems: ['jekyll-paginate', 'octopress-image-tag']
+gems:
+  - jekyll-paginate
+  - octopress-image-tag
 
 # Exclude
 exclude: ['README.md']
