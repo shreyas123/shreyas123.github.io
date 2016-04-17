@@ -6,8 +6,7 @@ site:
   title: ''
 ---
 
-{% img left half https://cloud.githubusercontent.com/assets/765113/14590417/54e3e78a-04fa-11e6-89d0-64164068be0c.jpg 30% 30% %}
-
+<img class="left half" src="https://cloud.githubusercontent.com/assets/765113/14590417/54e3e78a-04fa-11e6-89d0-64164068be0c.jpg" width="30%" height="30%">
 
 I am a software professional currently working in [Shyftplan GmBH](https://shyftplan.de) as Development Director.
 
