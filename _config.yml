@@ -1,5 +1,5 @@
 # Site wide configuration
-title: Ruby on Rails BLOG
+title: BLOG by Shreyas Agarwal
 description: 'Blog about ROR and more'
 url: http://byshreyas.com
 date_format: '%B %d, %Y'
@@ -34,23 +34,27 @@ permalink: /:year/:month/:day/:title/
 paginate: 10
 
 # Markdown
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 
 # Enable when using redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data', 'footnotes']
+# redcarpet:
+#   extensions: ['smart', 'tables', 'with_toc_data', 'footnotes']
 
 # Enable when using kramdown (you will need to use ~~~ instead of ```)
-# kramdown:
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   use_coderay: false
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  coderay:
+    coderay_line_numbers: nil
+    coderay_css: class
 
 # Gems
-gems: ['jekyll-paginate']
+gems: ['jekyll-paginate', 'octopress-image-tag']
 
 # Exclude
 exclude: ['README.md']
